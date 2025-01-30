@@ -30,10 +30,9 @@ A Node.js bot that auto-replies to messages in WhatsApp groups or individual cha
     -Create a .env file:
     ```bash
     touch .env
+  -Add your Twilio credentials and Ngrok token:
 
-    -Add your Twilio credentials and Ngrok token:
-
-    ``env
+   ``env
 
     TWILIO_ACCOUNT_SID=your_account_sid
     TWILIO_AUTH_TOKEN=your_auth_token
