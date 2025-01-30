@@ -32,12 +32,10 @@ A Node.js bot that auto-replies to messages in WhatsApp groups or individual cha
     touch .env
   -Add your Twilio credentials and Ngrok token:
 
-   ``env
-
-    TWILIO_ACCOUNT_SID=your_account_sid
-    TWILIO_AUTH_TOKEN=your_auth_token
-    TWILIO_PHONE_NUMBER=whatsapp:+14155238886  # Twilio sandbox number
-    NGROK_AUTHTOKEN=your_ngrok_token
+       TWILIO_ACCOUNT_SID=your_account_sid
+       TWILIO_AUTH_TOKEN=your_auth_token
+       TWILIO_PHONE_NUMBER=whatsapp:+14155238886  # Twilio sandbox number
+       NGROK_AUTHTOKEN=your_ngrok_token
 
 Here’s a **copy-paste-friendly version** of the key sections for your GitHub README. Just copy the Markdown below and paste it into your repository:
 
